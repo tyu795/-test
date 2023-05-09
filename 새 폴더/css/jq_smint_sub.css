@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; outline: 0;}
+ul {list-style: none;}
+a {text-decoration: none;}
+
+/* font-family: 'Nanum Pen Script', cursive; */
+
+body {font-family: 'Nanum Pen Script', cursive;}
+
+
+#wrap {width: 100%; height: 100vh;}
+.pic.wrap {width: 1400px; height: 2200px; background-color: #faac031a; margin: auto; position: relative; padding-top: 50px; box-sizing: border-box; border-bottom: 1px solid #ccc;}
+.pic.wrap h1 {text-align: center; margin-bottom: 80px;
+font-size: 50px;}
+.pic.wrap p {text-align: center; font-size: 30px;}
+.pic.wrap h2 {text-align: center;}
+.pic.wrap img {width: 100%; height:100%; object-fit: cover;}
+.pic1 {width: 600px; height: 400px; position: absolute; top: 500px;}
+.pic2 {width: 600px; height: 400px; position: absolute; right: 0; top: 1100px;}
+.pic3 {width: 600px; height: 400px; position: absolute; top: 1700px;}
+
+
+.map.wrap {width: 1400px; height: 1100px; background-color: #faac031a; margin: auto; padding-top: 80px; box-sizing: border-box;}
+.map.wrap p {text-align: center; margin-bottom: 50px; font-size: 50px;}
+.map.wrap>.go>p {font-size: 30px;}
+.map {width: 600px; height: 450px; margin: auto;}
+.map.wrap a {display: block; width: 300px; height: 60px; color: #000; text-align: center; margin: auto; margin-bottom: 30px;}
+.go {width: 1100px; height: 300px; margin: auto; margin-top: 80px; position: relative;}
+
+.kholarn {width: 1400px; height: 1800px; background-color: #faac031a; margin: auto; position: relative;
+    padding-top: 80px; box-sizing: border-box;}
+.kholarn p {text-align: center; margin-bottom: 60px 30px; font-size: 50px; margin-bottom: 150px;}
+.kho_box {width: 1000px; height: 500px;}
+.img_box {width: 600px; height: 500px; float: left;}
+.text_box {width: 400px; height: 500px;  float: left; padding: 60px 50px; box-sizing: border-box;}
+.text_box p {font-size: 30px;}
+.kho_box2 {width: 1000px; height: 480px; margin-top: 300px; position: absolute; right: 0; display: flex; flex-direction: row-reverse;}
+.img_box2 {width: 600px; height: 480px;}
+.img_box2 img {width: 100%; height: 100%; object-fit: cover;}
+.text_box2 {width: 400px; height: 480px;}
+.img_box img {width: 100%; height: 100%; object-fit: cover;}
+.text_box2 p {font-size: 30px; padding: 60px 50px; box-sizing: border-box;}
+
+
+
+
+.top_btn {display: block; width: 80px; height: 80px; background-color: #912613;; position: absolute; bottom: 70px; right:0; position: fixed; transform: translateX(-120%); font-size: 40px; color: #fff; text-align: center;
+padding-top: 18px; box-sizing: border-box;}
+
+
+
+
+
+
+
+
+
+
+
